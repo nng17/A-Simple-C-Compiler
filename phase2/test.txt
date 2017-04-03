@@ -1,0 +1,41 @@
+int g(int a, int b, char c, char d) {
+  int count; 
+  1+2; 
+  count + 1; 
+  a || b && c || d;
+  a >= -d;
+  ***p =  **p * *q; 
+}
+  
+void f(void) {
+  int i, j, k; 
+  char c, d, e; 
+  for (i = 1; i <= 5; i = i+1) 
+    if ( i % 2 == 1) 
+      return (i); 
+}
+
+int x,y,z; 
+char *c; 
+char c[4]; 
+char k(void);
+int foo(int x), y, bar(int c);
+
+int foo(int x) {
+	{ 
+		int x; 
+	}
+	{
+		int x; 
+	}
+	printf("%d %d\n", the_sum, n*(n+1)/2);
+}
+
+int bar(int y) {
+
+	int sum; 	
+	
+	for (y; y>0; y=y-1)
+		sum = sum - -y; 
+}
+  

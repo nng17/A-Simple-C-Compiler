@@ -1,0 +1,17 @@
+./checker.cpp:    if (expr->type().isArray()) {
+./checker.cpp:	debug("promoting", expr->type(), expr->type().promote());
+./checker.cpp:	expr = new Address(expr, expr->type().promote());
+./checker.cpp:    } else if (expr->type() == character) {
+./checker.cpp:	debug("promoting", expr->type(), expr->type().promote());
+./checker.cpp:    return expr->type();
+./checker.cpp:    const Type &t = expr->type();
+./checker.cpp:	if (expr->lvalue())
+./checker.cpp:    const Type &t = expr->type();
+./generator.cpp:    return ostr << expr->_operand;
+./generator.cpp:    _expr->generate();
+./generator.cpp:    _expr->generate();
+./generator.cpp:    _expr->generate();
+./generator.cpp:    _expr->generate();
+./generator.cpp:    _expr->generate(indirect);
+./generator.cpp:        _operand = _expr->_operand;
+Binary file ./.generator.cpp.swp matches

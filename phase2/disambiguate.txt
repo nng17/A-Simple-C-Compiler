@@ -1,0 +1,41 @@
+exprOR -> exprOR || exprAND 
+	| exprAND
+
+exprAND -> exprAND && exprEQUAL
+	| exprEQUAL
+
+exprEQUAL -> exprEQUAL == exprCOMPARE
+	| exprEQUAL != exprCOMPARE
+	| exprCOMPARE
+
+exprCOMPARE -> exprCOMPARE < exprADDSUB
+	| exprCOMPARE > exprADDSUB
+	| exprCOMAPRE <= exprADDSUB
+	| exprCOMAPRE >= exprADDSUB
+	| exprADDSUB
+
+exprADDSUB -> exprADDSUB + exprMULTDIV
+	| exprADDSUB - exprMULTDIV
+	| exprMULTDIV
+
+exprMULTDIV -> exprMULTDIV * exprUNAR
+	| exprMULTDIV / exprUNAR
+	| exprMULTDIV % exprUNAR
+	| exprUNAR
+
+exprUNAR -> & exprUNAR
+	| * exprUNAR
+	| ! exprUNAR
+	| - exprUNAR
+	| sizeof exprUNAR
+	| exprBRAC
+
+exprBRAC -> exprBRAC [exprOR]
+	| OTHER
+
+OTHER -> ID(expression-list)
+	| ID()
+	| ID
+	| num
+	| string
+	| (exprOR)

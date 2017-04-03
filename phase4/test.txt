@@ -1,0 +1,12 @@
+int func(void);
+
+int main(void)
+{
+	void *p;
+	int x, y;
+	char z;
+	x || y;
+	x || func;
+	x || func || y;
+}
+

@@ -1,0 +1,15 @@
+x: int
+y: int *
+foo: int(int, int *)
+a: int[10]
+i: int
+p: int *
+d: char
+s: char *
+calling lookup on: x
+calling lookup on: printf
+printf: int()
+calling lookup on: foo
+inside for loop for compatible types
+calling lookup on: foo
+outside of everything

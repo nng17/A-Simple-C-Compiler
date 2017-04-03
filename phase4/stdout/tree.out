@@ -1,0 +1,67 @@
+n: int
+malloc: void *(int)
+null: void *
+root: void **
+data: void *
+insert: void *(void **, void *)
+calling lookup on: malloc
+inside for loop for compatible types
+calling lookup on: insert
+inside for loop for compatible types
+calling lookup on: insert
+inside for loop for compatible types
+inside for loop for compatible types
+root: void **
+data: void *
+search: int(void **, void *)
+inside for loop for compatible types
+calling lookup on: search
+inside for loop for compatible types
+inside for loop for compatible types
+calling lookup on: search
+inside for loop for compatible types
+inside for loop for compatible types
+inside for loop for compatible types
+root: void **
+preorder: void(void **)
+p: int *
+calling lookup on: printf
+printf: int()
+calling lookup on: preorder
+inside for loop for compatible types
+calling lookup on: preorder
+inside for loop for compatible types
+root: void **
+inorder: void(void **)
+p: int *
+calling lookup on: inorder
+inside for loop for compatible types
+calling lookup on: printf
+calling lookup on: inorder
+inside for loop for compatible types
+main: int(void)
+root: void **
+a: int[10]
+i: int
+calling lookup on: insert
+inside for loop for compatible types
+calling lookup on: insert
+inside for loop for compatible types
+calling lookup on: insert
+inside for loop for compatible types
+calling lookup on: insert
+inside for loop for compatible types
+calling lookup on: insert
+inside for loop for compatible types
+calling lookup on: insert
+inside for loop for compatible types
+calling lookup on: insert
+inside for loop for compatible types
+calling lookup on: insert
+inside for loop for compatible types
+calling lookup on: printf
+calling lookup on: preorder
+inside for loop for compatible types
+calling lookup on: printf
+calling lookup on: inorder
+inside for loop for compatible types

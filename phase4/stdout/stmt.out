@@ -1,0 +1,6 @@
+f: int **(void)
+p: int *
+inside for loop for compatible types
+main: int(void)
+calling lookup on: main
+inside for loop for compatible types
